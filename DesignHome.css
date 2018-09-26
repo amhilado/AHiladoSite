@@ -30,3 +30,24 @@
     font-weight: bolder;
     letter-spacing: 0.5em;
 }
+
+.projectcont {
+    padding: 0 5%;
+}
+
+.project {
+    height: 400px;
+    width: 400px;
+    background-color: orange;
+    padding: 2%;
+}
+
+#ProjCat {
+    font-size: 1.2em;
+    font-weight: bolder;
+    margin: 0;
+}
+
+#ProjTitle {
+    font-size: 2em;
+}

@@ -21,12 +21,71 @@
 }
 
 .photo {
-    -webkit-filter: opacity(0.8);
-    filter: opacity(0.8);
+    -webkit-filter: opacity(0.6);
+    filter: opacity(0.6);
 }
 
 #largeFontSize {
+    font-family: 'Raleway';
     font-size: 3.5em;
-    font-weight: bolder;
+    font-weight: 600;
     letter-spacing: 0.5em;
+}
+
+.help {
+    padding: 10%;
+}
+
+.contactbtn {
+    width: 300px;
+    height: 60px;
+    border-radius: 50px;
+    border-width: 2px;
+    border-color: white;
+    background: none;
+    color: white;
+    transition: 0.3s ease-in, 0.3s ease-out;
+}
+
+.contactbtn:hover {
+    background: #eec027;
+    border-color: #eec027;
+    color: black;
+    cursor: pointer;
+}
+
+#btnfont {
+    font-size: 1.5em;
+    margin: auto;
+    padding: auto;
+}
+
+.info {
+    padding-bottom: 3%;
+}
+
+#infofont {
+    font-size: 1.5em;
+    letter-spacing: 0.03em;
+}
+
+.icon {
+    font-size: 3em;
+    margin: 0 3%;
+    transition: 0.3s ease-in-out;
+}
+
+.icon:hover {
+    color: #eec027;
+}
+
+.credit {
+    border-top: 1px solid #3b3b3b;
+    width: 50%;
+    padding: 0.2%;
+}
+
+#creditText {
+    font-size: 1em;
+    color: #3b3b3b;
 }

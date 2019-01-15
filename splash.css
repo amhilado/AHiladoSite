@@ -24,6 +24,8 @@
     width: 50%;
     height: 100vh;
     transition: 0.5s ease-in, 0.5s ease-out;
+    position: absolute;
+    z-index: 1;
 }
 
 .leftwrap:hover ~ .logo {
@@ -51,6 +53,8 @@
     width: 50%;
     height: 100vh;
     transition: 0.5s ease-in, 0.5s ease-out;
+    position: relative;
+    z-index: 1;
 }
 
 .rightwrap:hover ~ .logo {
@@ -59,6 +63,10 @@
 
 .rightwrap:hover .contright {
     width: 100%;
+}
+
+.rightwrap:hover .textcenter {
+    top: 62%;
 }
 
 .photocont {

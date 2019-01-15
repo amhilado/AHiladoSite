@@ -1,15 +1,19 @@
-.Heading {
+.heading {
     font-size: 2.5em;
     font-weight: bolder;
     padding: 0;
     margin: 0
 }
 
-.SubHeading {
+.subheading {
     font-size: 1.8em;
     padding: 0;
     margin: 0;
-    line-height: .8;
+    line-height: 1;
+}
+
+.bodytext {
+    font-size: 1.4em;
 }
 
 .BGLogo {
@@ -23,7 +27,7 @@
     filter: brightness(0.08);
 }
 
-.ProfileImg {
+.profileimg {
     position: absolute;
     height: 450px;
     width: 450px;
@@ -34,10 +38,10 @@
     left: 45px;
 }
 
-.ProfileImg img {
+.profileimg img {
     height: 100%;
 }
 
-.AboutText {
+.abouttext {
     font-size: 1.5em;
 }

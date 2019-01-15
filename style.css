@@ -1,84 +1,64 @@
-.main {
-    padding: 0;
-    position: relative;
-}
-
-.logo {
-    height: 400px;
-    display: block;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, 65%);
-    z-index: 1;
-    transition: 0.5s ease-in, 0.5s ease-out;
-    -webkit-filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.7));
-    filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.7));
-}
-
-.main:hover .logo {
-    transform: translate(-50.5%, 45%);
-}
-
-.contleft {
-    padding: 0;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    float: left;
-    width: 50%;
-    height: 100vh;
-    transition: 0.5s ease-in, 0.5s ease-out;
-}
-
-a:hover .contleft {
+/** Navigation Bar **/
+.navigation-bar {
     width: 100%;
+    height: 105px;
+    z-index: 10;
 }
 
-.contleft:hover .textcenter {
-    top: 62%;
-}
-
-.contright {
-    padding: 0;
-    display: flex;
-    align-items: center;
-    text-align: center;
+.navigation-bar a {
+    font-size: 1.2rem;
     float: right;
-    width: 50%;
-    height: 100vh;
-    transition: 0.5s ease-in, 0.5s ease-out;
+    margin-right: 60px;
+    height: 105px;
+    line-height: 105px;
+    text-decoration: none;
 }
 
-a:hover .contright {
-    width: 100%;
+/** Navigation Bar - Logo Grouping **/
+.logo {
+    height: 90px;
+    margin-left: 10px;
+    margin-top: 10px;
 }
 
-.photocont {
+#logoGroup {
+    width: 290px;
+    height: auto;
+    float: left;
+}
+
+#logoGroup h1 {
+    float: right;
+    width: 100px;
+    padding-top: 25px;
+    font-size: 1.8rem;
+}
+
+#logoGroup a:hover {
+    color: white;
+}
+
+/** Navigation Bar - Navigation Links **/
+#navLinks ul {
+    list-style: none;
     padding: 0;
     margin: 0;
-    position: relative;
-    text-align: center;
-    z-index: 0;
+    text-align: right;
 }
 
-.photo {
-    -webkit-filter: brightness(0.5);
-    filter: brightness(0.5);
-    transition: 0.5s ease-in, 0.5s ease-out;
+#navLinks li {
+    display: inline-block;
 }
 
-a:hover .photo{
-    -webkit-filter: brightness(1);
-    filter: brightness(1);
+#navLinks li a {
+    display: inline-block;
+    text-decoration: none;
+    float: right;
+    margin-right: 70px;
 }
 
-.textcenter {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    transition: 0.5s ease-in, 0.5s ease-out;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+.top-buffer {
+    margin-top: 1.5%;
 }
 
 body {
@@ -89,4 +69,12 @@ body {
 
 a, a:hover {
     color: white;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url(fonts/Raleway-Bold.ttf);
+    font-style: normal;
+    font-weight: 600;
 }

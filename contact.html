@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Aaron Hilado</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="contact.css">
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <img class="BGLogo" src="images/CubeLogo.svg">
+    </div>
+
+    <nav class="navigation-bar">
+        <div id="logoGroup">
+            <a href="index.html">
+                <img class="logo" src="images/CubeLogo.svg">
+                <h1> Aaron Hilado </h1>
+            </a>
+        </div>
+        <div id="navLinks">
+            <ul>
+                <li>
+                    <a href="photoHome.html">Photography</a>
+                </li>
+                <li>
+                    <a href="designHome.html">Design</a>
+                </li>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container-fluid text-center">
+        <h1>Need help with your next project?</h1>
+        <p style="font-size: 1.5rem">Let's create something together!</p>
+    </div>
+
+    <div class="row justify-content-center top-buffer">
+        <div class="info col-lg-4">
+            <div class="contact">
+                <div class="contactIconMobile">
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <div class="contactInfo">
+                    <h4>Email</h4>
+                    <a href="mailto:aaronh1114@yahoo.com"> aaronh1114@yahoo.com </a>
+                </div>
+                <div class="contactIconDesktop">
+                    <i class="fas fa-envelope"></i>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="contactIconMobile">
+                    <i class="fas fa-phone"></i>
+                </div>
+                <div class="contactInfo">
+                    <h4>Phone</h4>
+                    <p>(626) 977-0822</p>
+                </div>
+                <div class="contactIconDesktop">
+                    <i class="fas fa-phone"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="form col-lg-4">
+            <form action="formToEmail.php">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your first name...">
+
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name...">
+
+                <label for="inquiry">Inquiry</label>
+                <select id="inquiry" name="inquiry">
+                    <option value="Job Opportunity">Job Opportunity</option>
+                    <option value="Question">Question</option>
+                    <option value="Other">Other</option>
+                </select>
+
+                <label for="comment">Comment</label>
+                <input type="text" id="comment" name="commentBox" placeholder="Your comment here...">
+
+                <input type="submit" value="SUBMIT">
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>

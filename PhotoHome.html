@@ -12,16 +12,86 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg"
         crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="PhotoHome.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="photoHome.css">
 </head>
 
 <body>
 
     <div class="main container-fluid">
-        <img class="photo" src="images/BayBridge.jpg" style="width: 100%">
+        <nav class="navigation-bar">
+            <div id="logoGroup">
+                <a href="index.html">
+                    <img class="logo" src="images/CubeLogo.svg">
+                    <h1>Aaron Hilado</h1>
+                </a>
+            </div>
+            <div id="navLinks">
+                <ul>
+                    <li>
+                        <a href="photoHome.html">Photography</a>
+                    </li>
+                    <li>
+                        <a href="designHome.html">Design</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div id="photocont">
+            <img class="photo" src="images/BayBridge.jpg" style="width: 100%; height: 100vh;">
+        </div>
         <div class="textcenter">
             <p id="largeFontSize">PHOTOGRAPHY</p>
         </div>
+    </div>
+
+    <div class="help container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-lg-6 text-center">
+                <h2>Need help with your next project?</h2>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-6 text-center">
+                <button class="contactbtn">
+                    <p id="btnfont">Let's Work Together</p>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="info container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-lg-6 text-center">
+                <p id="infofont">aaronh1194@gmail.com | (626)-304-4920</p>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-6 text-center">
+                <a href="#">
+                    <i class="icon fab fa-behance-square"></i>
+                </a>
+                <a href="#">
+                    <i class="icon fab fa-linkedin"></i>
+                </a>
+                <a href="#">
+                    <i class="icon fab fa-tumblr-square"></i>
+                </a>
+                <a href="#">
+                    <i class="icon fab fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="credit container-fluid text-center">
+        <p id="creditText">Designed by Aaron Hilado | Built by Aaron Hilado & Anthony Lopez</p>
     </div>
 
 </body>

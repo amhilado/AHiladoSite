@@ -32,6 +32,57 @@
     letter-spacing: 0.5em;
 }
 
+.projectcont {
+    padding: 0 7%;
+}
+
+.project {
+    position: relative;
+    z-index: 0;
+    height: 450px;
+    width: 100%;
+    padding: 0;
+    margin: 1%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.project img {
+    height: 100%;
+}
+
+a > .project img {
+    transition: 0.3s ease-in-out;
+}
+
+a:hover > .project img {
+    -webkit-filter: brightness(0.4);
+    filter: brightness(0.4);
+}
+
+.ProjText {
+    position: absolute;
+    top: 10px;
+    left: 12px;
+}
+
+#ProjCat {
+    font-family: 'Raleway';
+    font-size: 1.2em;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    margin: 0;
+    padding: 0;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+}
+
+#ProjTitle {
+    font-size: 1.8em;
+    line-height: 1;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+}
+
 .help {
     padding: 10%;
 }

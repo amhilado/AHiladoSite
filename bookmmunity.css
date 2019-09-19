@@ -1,0 +1,57 @@
+.title {
+    padding: 0;
+    margin-top: 1.3%;
+}
+
+.project {
+    height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    -webkit-filter: brightness(0.5);
+    filter: brightness(0.5);
+    transition: 0.5s ease-in, 0.5s ease-out;
+    align-items: center;
+}
+
+.project1 {
+    background-image: url(https://cdn-images-1.medium.com/max/2000/1*jOmqL305XiH0Rvj_gabASg.png);
+}
+
+.titleText {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    text-shadow: 2px 2px 2px #000;
+    transition: 0.5s ease-in, 0.5s ease-out;
+    text-align: center;
+}
+
+#largeFontSize {
+    font-family: 'Raleway';
+    font-size: 3.5em;
+    font-weight: 600;
+}
+
+.content{
+    width: 45%;
+}
+
+#projectText {
+    padding: 1.5% 0 3% 0;
+    font-size: 1.25em;
+}
+
+.credit {
+    border-top: 1px solid #3b3b3b;
+    width: 50%;
+    padding: 0.2%;
+}
+
+#creditText {
+    font-size: 1em;
+    color: #3b3b3b;
+}

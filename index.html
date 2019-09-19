@@ -7,43 +7,130 @@
     <title>Aaron Hilado</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
-        crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg"
-        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+        integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/6016060e75.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" type="text/css" href="splash.css">
+    <link rel="stylesheet" type="text/css" href="Home.css">
 </head>
 
 <body>
 
     <div class="main container-fluid">
-        <div class="leftwrap">
-            <a href="photoHome.html">
-                <div class="contleft container-fluid">
-                    <div class="photocont">
-                        <img class="photo" src="images/BayBridge.jpg" style="height: 100%">
-                        <div class="textcenter">
-                            <h1>Photography</h1>
-                        </div>
-                    </div>
-                </div>
-            </a>
+        <nav class="navigation-bar">
+            <div id="logoGroup">
+                <a href="index.html">
+                    <img class="logo" src="images/CubeLogo.svg">
+                    <h1>Aaron Hilado</h1>
+                </a>
+            </div>
+            <div id="navLinks">
+                <ul>
+                    <li>
+                        <a href="Home.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="photoHome.html">Photography</a>
+                    </li>
+                    <li>
+                        <a href="designHome.html">Design</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div id="photocont">
+            <img src="images/Portrait.jpg" style="width: 100%; max-height: 100%">
         </div>
-        <div class="rightwrap">
-            <a href="designHome.html">
-                <div class="contright container-fluid">
-                    <div class="photocont">
-                        <img class="photo" src="images/Seattle.jpg" style="height: 100%">
-                        <div class="textcenter">
-                            <h1>Design</h1>
-                        </div>
-                    </div>
-                </div>
-            </a>
+        <div class="textcenter">
+            <p id="largeFontSize">AARON HILADO</p>
         </div>
-        <img class="logo" src="images/CubeLogo.svg">
+    </div>
+
+    <div class="help container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-lg-6 text-center">
+                <h1>What can I help you with?</h1>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="row_cell">
+                <i class="fas fa-drafting-compass fa-4x"></i>
+                <p id="card_text">UX Design</p>
+            </div>
+            <div class="row_cell">
+                <i class="fas fa-eye fa-4x"></i>
+                <p id="card_text">Visual Design</p>
+            </div>
+            <div class="row_cell">
+                <i class="fas fa-camera-retro fa-4x"></i>
+                <p id="card_text">Photography</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="projects container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-lg-6 text-center">
+                <h2>Recent Projects</h2>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="project_box col-lg-8">
+                <img src="images/Clouds.jpg">
+            </div>
+        </div>
+    </div>
+
+    <div class="help container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-lg-6 text-center">
+                <h2>Need help with your next project?</h2>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-6 text-center">
+                <a href="contact.html">
+                    <button class="contactbtn">
+                        <p id="btnfont">Let's Work Together</p>
+                    </button>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="info container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-lg-6 text-center">
+                <p id="infofont">aaronh1194@gmail.com | (626)-304-4920</p>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-6 text-center">
+                <a href="https://www.behance.net/aaronh1114">
+                    <i class="icon fab fa-behance-square"></i>
+                </a>
+                <a href="#">
+                    <i class="icon fab fa-linkedin"></i>
+                </a>
+                <a href="https://ahilado.tumblr.com">
+                    <i class="icon fab fa-tumblr-square"></i>
+                </a>
+                <a href="https://instagram.com/ahilado">
+                    <i class="icon fab fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="credit container-fluid text-center">
+        <p id="creditText">Designed by Aaron Hilado | Built by Aaron Hilado & Anthony Lopez</p>
     </div>
 
 </body>

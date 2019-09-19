@@ -12,10 +12,6 @@
     line-height: 1;
 }
 
-.bodytext {
-    font-size: 1.4em;
-}
-
 .BGLogo {
     z-index: -2;
     position: fixed;
@@ -44,4 +40,38 @@
 
 .abouttext {
     font-size: 1.5em;
+}
+
+.aboutSubheading {
+    font-size: 1.8em;
+    font-weight: bolder;
+    padding: 0;
+    margin: 0;
+}
+
+.aboutBody {
+    font-size: 1.2em;
+    padding: 0;
+    margin: 0;
+}
+
+.cardheading {
+    font-size: 1.8em;
+    font-weight: bolder;
+    padding: 0;
+    margin: 0;
+}
+
+.cardbody {
+    font-size: 1.5em;
+    padding: 0;
+    margin: 0;
+}
+
+.cardbg {
+    background-color: rgba(64, 64, 64, 0.7);
+    height: 500px;
+    width: 100%;
+    margin: 0 1%;
+    padding: 1.5%;
 }

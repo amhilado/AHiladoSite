@@ -17,12 +17,12 @@
 }
 
 #photocont {
+    width: 100%;
+    height: 100%;
     position: absolute;
-}
-
-.photo {
-    -webkit-filter: opacity(0.6);
-    filter: opacity(0.6);
+    background-image: url(images/BayBridge.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 #largeFontSize {

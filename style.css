@@ -100,6 +100,58 @@ a, a:hover {
     text-decoration: none;
 }
 
+/** Hamburger Bars Menu **/
+#hamburger {
+    font-size: 40px;
+    text-align: right;
+    display: none;
+  }
+  
+  #hamburger button {
+    background: none;
+    border: none;
+    padding: 0;
+  }
+  
+  .fa-bars {
+    color: white;
+  }
+  
+  .dropdownContent {
+    display: none;
+  }
+  
+  .show {
+    display: block;
+  }
+  
+  /** Media Queries for Nav Bar and Content **/
+  @media (max-width: 1100px) {
+    #navLinks {
+      height: 0;
+      display: none;
+    }
+  
+    #hamburger {
+      padding-right: 20px;
+      padding-top: 12px;
+      display: block;
+    }
+  
+    .dropdownContent li {
+      list-style: none;
+      display: block;
+      width: 100%;
+      height: auto;
+      float: left;
+    }
+  
+    .dropdownContent a {
+      margin-right: 0px;
+      padding: 10px 0;
+    }
+  }
+
 @font-face {
     font-family: 'Raleway';
     src: url(fonts/Raleway-Bold.ttf);

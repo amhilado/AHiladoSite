@@ -140,3 +140,12 @@ a:hover > .project img {
     font-size: 1em;
     color: #3b3b3b;
 }
+
+@media screen and (max-width: 1200px) {
+    .project {
+        width: 80%;
+        display: block;
+        margin: auto;
+        padding: 10px 0;
+    }
+}

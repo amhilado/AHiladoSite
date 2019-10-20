@@ -13,6 +13,7 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="index.css">
+    <script src="functions.js"></script>
 </head>
 
 <body>
@@ -44,12 +45,43 @@
                     </li>
                 </ul>
             </div>
+            <div id="hamburger">
+                <button onclick="myFunction()">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div id="dropdown" class="dropdownContent">
+                    <ul>
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="photoHome.html">Photography</a>
+                        </li>
+                        <li>
+                            <a href="designHome.html">Design</a>
+                        </li>
+                        <li>
+                            <a href="about.html">About</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
         <div id="photocont">
-            <img src="images/Portrait.jpg" style="width: 100%; max-height: 100%">
+
         </div>
         <div class="textcenter">
-            <p id="largeFontSize">AARON HILADO</p>
+            <p id="smallFontSize">My name is</p>
+            <p id="largeFontSize">Aaron Hilado</p>
+            <p id="smallFontSize">and I am a</p>
+            <div class="slidingVertical">
+                <span>Designer.</span>
+                <span>Photographer.</span>
+                <span>Creative.</span>
+            </div>
         </div>
     </div>
 

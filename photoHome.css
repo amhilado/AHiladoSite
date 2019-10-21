@@ -32,6 +32,23 @@
     letter-spacing: 0.5em;
 }
 
+.gallery {
+    padding: 50px 0px;
+    text-align: center;
+}
+
+.gallery img {
+    transition: 0.5s;
+    padding: 8px 5px;
+    width: 500px;
+    display: inline-block;
+}
+
+.gallery img:hover {
+    -webkit-filter: brightness(0.6);
+    filter: brightness(0.6);
+}
+
 .help {
     padding: 10%;
 }

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Aaron Hilado</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+        integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css"
+        integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="project.css">
+    <link rel="stylesheet" type="text/css" href="lightbox.css">
+    <script src="functions.js"></script>
+    <script src="lightbox-plus-jquery.min.js"></script>
+</head>
+
+<body>
+
+    <nav class="navigation-bar">
+        <div id="logoGroup">
+            <a href="index.html">
+                <img class="logo" src="images/CubeLogo.svg">
+                <h1> Aaron Hilado </h1>
+            </a>
+        </div>
+        <div id="navLinks">
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="photoHome.html">Photography</a>
+                </li>
+                <li>
+                    <a href="designHome.html">Design</a>
+                </li>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div id="hamburger">
+            <button onclick="myFunction()">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div id="dropdown" class="dropdownContent">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="photoHome.html">Photography</a>
+                    </li>
+                    <li>
+                        <a href="designHome.html">Design</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="title container-fluid">
+        <div class="project" style="background-image: url(images/NSA/Project\ Title\ Cover.jpg)">
+        </div>
+        <div class="titleText">
+            <p id="largeFontSize">Knaq App</p>
+        </div>
+    </div>
+
+    <div class="content container">
+        <p id="projectText">
+            Knaq is an app that provides Content Creators with more ownership of their content and instantly
+            provides larger payouts compared to platforms such as Twitch or Youtube, where they take a large percentage
+            of what the Creator earns. This is done through the efficiency of BSV Bitcoin since it has low
+            transaction/gas fees.
+            <br><br>
+            For this project, I was the main UX/UI designer working directly with the CEO of Knaq. The main features
+            that we wanted to focus on building out were the tipping/subscriptions, and the in-app wallet. The users
+            would be able to earn feathers, which is the in-app currency, and convert the feathers into cryptocurrency
+            so they can instantly deposit the money they made into their crypto wallet.
+        </p>
+
+        <h1 class="text-center">Defining the Problem</h1>
+
+        <p id="projectText">
+            Content creators put a lot of time and effort into creating, but most platforms take a large percentage of
+            the profit (Ex: Twitch takes 50% of profits gained from bits and subscriptions, Facebook and Instagram take
+            55% of ad revenue), and require certain prerequisites for creators to start earning money on their platform.
+            This revenue system can drive away and discourage smaller content creators from even creating in the first place.
+            <br><br>
+            Challenges:
+            <ul>
+                <li>
+                    Startup was still in early stages of development
+                </li>
+                <li>
+                    Lack of real user data due to time and budgetary constraints
+                </li>
+                <li>
+                    Existing UI needed an overhaul
+                 </li>
+            </ul>
+
+        </p>
+
+        <h1 class="text-center">Who are we designing for?</h1>
+        <!-- <img class="projectImg" src="images/NSA/Color Palette.jpg"> -->
+
+        <p id="projectText">
+            Although we didn't have any real users to help us conduct research, we were able to identify and define the
+            potential users we were building the app for.
+        </p>
+
+        <!-- Content Creators <img src="images/camera-retro-solid.svg"> add icon of a "Content Creator" -->
+        <!-- Supporters <img src="images" add icon of a "Supporter" -->
+        <!-- Casual Content Consumers <img src="images" add icon of a "Consumer" -->
+
+        <h1 class="text-center">Competitive Analysis</h1>
+        <!-- <a href="/images/Knaq/KnaqComparativeAnalysisS.jpg" data-lightbox="mygallery"><img src="images/Knaq/KnaqComparativeAnalysisS.jpg"></a> -->
+        <img class="projectImg" src="images/Knaq/KnaqComparativeAnalysisM.jpg">
+
+        <p id="projectText">
+            Looking at other content creations platforms that pay creators, most of them require creators to meet a
+            specific set of requirements (certain number of followers/subscribers, average view counts/likes, etc.)
+            before they can start earning money. Once the creator does start earning money, they receive their payment
+            at specific periods, whether it be monthly, or reaching a certain revenue threshold. None of the platforms
+            allow creators to instantly deposit their revenue into their account.
+        </p>
+
+        <h1 class="text-center">Feature Prioritization</h1>
+
+        <p id="projectText">
+            Features were prioritized based on value provided to the user. In the case with Knaq, giving users the 
+            ability to deposit any money earned directly into their crypto wallet without deducting any transaction 
+            fees was one of the main features we wanted to focus on.
+        </p>
+
+        <h1 class="text-center">Solution</h1>
+
+        <p id="projectText">
+            In order to provide creators with more control over their content and the full revenue they have earned 
+            through tips and subscriptions, we decided to integrate an in-app wallet. The in-app wallet will allow 
+            creators to deposit their revenue earned into their crypto wallet without having to worry about any 
+            transaction fees thanks to the low gas fees of BSV Bitcoin.
+        </p>
+
+        <h1 class="text-center">Visual Design</h1>
+
+        <p id="projectText">
+            The in-app wallet was designed to be streamlined and straightforward to make it easier for the user to 
+            deposit, withdraw, and send their currency. We narrowed down the number of steps it takes to move currency 
+            between the in-app wallet and the user’s crypto wallet in order to make the process more smooth.
+        </p>
+
+        <p id="projectText">
+            As for the tipping/subscription features, we wanted to make it easy and straight-forward to use while 
+            maintaining an aesthetically pleasing experience. We simplified the color palette and made the call to 
+            action buttons the secondary color to provide contrast against the white background.
+        </p>
+
+        <h1 class="text-center">Future Considerations</h1>
+            
+        <p id="projectText">
+            Going forward with this project, I would like to conduct more through research with our user base to gain 
+            a better understanding of what current features of the app work well, and what features can be improved. 
+            This will be done through more prototyping, user testing, user interviews, and empathy mapping.
+        </p>
+
+        <!-- <h1 class="text-center">Style Guide</h1>
+        <img src="images/NSA/Style Guide.png" style="width: 100%; height: 100%; padding: 3% 0%;"> -->
+
+    </div>
+
+    <div class="credit container-fluid text-center">
+        <p id="creditText">Designed by Aaron Hilado | Built by Aaron Hilado & Anthony Lopez</p>
+    </div>
+
+</body>
+
+</html>
